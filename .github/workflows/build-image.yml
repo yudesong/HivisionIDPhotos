@@ -42,5 +42,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ${{ vars.IMAGE_NAME }}:latest
-            ${{ vars.IMAGE_NAME }}:${{ github.ref_name }}
+            yudesong/hivision_idphotos:latest
+            yudesong/hivision_idphotos:${{ github.ref_name }}
